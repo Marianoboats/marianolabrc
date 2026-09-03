@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bitácora · Mariano RC</title>
+<meta name="description" content="Cuaderno de astillero de Mariano RC: cómo se construye, se restaura y se pone a punto cada barco de radiocontrol.">
+<link rel="canonical" href="https://marianorc.com/bitacora.html">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<style>
+  /* Estilos propios de la bitácora */
+  .post-hero { background: var(--paper-2); padding-block: clamp(2.5rem, 7vw, 4.5rem); border-bottom: 1px solid var(--line-soft); }
+  .post-hero .wrap { max-width: 760px; }
+  .back-link { font-size: .9rem; font-weight: 600; text-decoration: none; color: var(--ink-soft); }
+  .back-link:hover { color: var(--ink); }
+
+  .entry { max-width: 760px; margin-inline: auto; padding-block: clamp(2.5rem, 7vw, 5rem); }
+  .entry + .entry { border-top: 1px solid var(--line-soft); }
+  .entry-meta { display: flex; gap: .8rem; align-items: center; font-size: .8rem; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--brass); margin-bottom: .8rem; }
+  .entry-meta time { color: var(--ink-soft); letter-spacing: normal; text-transform: none; font-weight: 500; }
+  .entry h2 { font-size: clamp(1.7rem, 4vw, 2.5rem); }
+  .entry-cover { margin: 1.8rem 0; border-radius: var(--radius); box-shadow: var(--shadow); width: 100%; aspect-ratio: 3 / 2; object-fit: cover; }
+  .entry h3 { margin-top: 2rem; }
+  .entry p { color: var(--ink-2); }
+  .entry ul { color: var(--ink-2); padding-left: 1.2rem; }
+  .entry li { margin-bottom: .3rem; }
+  .entry-figs { display: grid; grid-template-columns: 1fr 1fr; gap: .8rem; margin: 1.6rem 0; }
+  .entry-figs img { border-radius: var(--radius); aspect-ratio: 4 / 3; object-fit: cover; box-shadow: var(--shadow); }
+  @media (max-width: 560px) { .entry-figs { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+
+<a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="index.html" aria-label="Mariano RC — inicio">
+      <img class="brand-logo" src="img/logo-negro.png" alt="" aria-hidden="true">
+      <span class="brand-text">Mariano RC<small>El astillero de Mariano</small></span>
+    </a>
+    <nav class="site-nav" aria-label="Principal">
+      <a href="index.html#astillero">El astillero</a>
+      <a href="index.html#trabajos">Trabajos</a>
+      <a href="bitacora.html">Bitácora</a>
+      <a href="index.html#contacto">Contacto</a>
+    </nav>
+    <a class="btn btn-ghost header-cta" href="index.html#contacto">Contactar</a>
+  </div>
+</header>
+
+<main id="contenido">
+
+  <section class="post-hero">
+    <div class="wrap">
+      <a class="back-link" href="index.html">← Volver al inicio</a>
+      <p class="eyebrow" style="margin-top:1rem">Bitácora</p>
+      <h1>Cuaderno de astillero</h1>
+      <p class="section-sub">
+        Notas de taller sobre construcción, restauración y puesta a punto. Cada barco lleva su historia;
+        estas son algunas.
+      </p>
+    </div>
+  </section>
+
+  <!--
+    ✏️  ENTRADAS DE MUESTRA
+    Estos tres textos son un punto de partida escrito a partir de las fotos.
+    Mariano puede editarlos, ampliarlos con sus propias notas o sustituirlos por
+    proyectos reales. Para añadir una entrada nueva, copia un bloque <article class="entry">…</article>.
+  -->
+
+  <article class="entry" id="runabout-clasico">
+    <div class="entry-meta">
+      <span>Construcción</span>
+      <time datetime="2026-05">Mayo de 2026</time>
+    </div>
+    <h2>Runabout clásico: de las cuadernas a la caoba</h2>
+    <img class="entry-cover" src="img/construccion-vetas-central.jpg" alt="Casco lijado de una lancha clásica con la línea central de la cubierta marcada en caoba y arce">
+
+    <p>
+      Las lanchas de línea italiana de los años cincuenta y sesenta —esos runabouts de casco rojo,
+      cubierta de caoba y filete blanco— son el corazón del taller. Reproducirlas a escala de
+      radiocontrol tiene poco de maqueta y mucho de carpintería de ribera: el barco se levanta de
+      dentro afuera, igual que el original.
+    </p>
+
+    <h3>El esqueleto</h3>
+    <p>
+      Todo empieza con la quilla y las cuadernas cortadas a láser. Se montan sobre un banco de trabajo,
+      perfectamente aplomadas y a escuadra, porque cualquier desviación aquí se arrastra hasta el final.
+      Una vez encoladas y con los refuerzos puestos, ya se intuye la silueta.
+    </p>
+
+    <div class="entry-figs">
+      <img src="img/construccion-cuadernas-laser.jpg" loading="lazy" alt="Cuadernas de balsa cortadas a láser montadas sobre el banco">
+      <img src="img/construccion-casco-forrado.jpg" loading="lazy" alt="Casco de la lancha forrado con las cuadernas todavía visibles">
+    </div>
+
+    <h3>Forrado y cubierta</h3>
+    <p>
+      El casco se forra con tablilla fina, pieza a pieza, mojando y presentando cada tira para que
+      siga la curvatura sin forzarla. Después llega el trabajo más lento: la cubierta. Cientos de
+      listones de caoba alternados con finísimas tiras claras de arce que imitan el calafateado.
+      Se enfila la veta central, se colocan los laterales simétricos y se remata con la
+      característica «V» de la popa.
+    </p>
+
+    <h3>Lijado, imprimación y barniz</h3>
+    <p>
+      Con el casco cerrado empieza el ciclo de lijar, tapar poro, lijar, imprimar y volver a lijar
+      hasta que la superficie es un espejo. La obra viva se pinta —rojo, verde inglés, según el
+      modelo— y la cubierta se barniza a varias manos. El resultado es una lancha que, quieta sobre
+      su peana, ya parece estar navegando.
+    </p>
+
+    <div class="entry-figs">
+      <img src="img/construccion-lijando-balcon.jpg" loading="lazy" alt="Mariano lijando el casco de una lancha en el balcón">
+      <img src="img/clasico-runabout-terminado.jpg" loading="lazy" alt="Lancha clásica terminada con parabrisas y luz de navegación">
+    </div>
+  </article>
+
+  <article class="entry" id="restauracion-llaut">
+    <div class="entry-meta">
+      <span>Restauración</span>
+      <time datetime="2026-06">Junio de 2026</time>
+    </div>
+    <h2>Restauración de un llaüt: devolverlo al agua</h2>
+    <img class="entry-cover" src="img/restauracion-llaut-lateral.jpg" alt="Llaüt mediterráneo de radiocontrol en verde y blanco sobre su peana">
+
+    <p>
+      No todo es construir de cero. A veces llega un modelo antiguo —una barca tradicional del
+      Mediterráneo, un llaüt de faena con su caseta de gobierno— que lleva años parado y merece
+      volver a navegar. Restaurar tiene su propio ritmo: hay que entender qué hizo el modelista
+      original antes de tocar nada.
+    </p>
+
+    <h3>Diagnóstico</h3>
+    <p>
+      Se revisa el casco palmo a palmo: juntas abiertas, madera reseca, pintura levantada, herrajes
+      picados. En este llaüt había que abrir la cubierta para acceder a la bancada del motor y al
+      eje, así que se retiró con cuidado la tapa de registro para no dañar el entablado de alrededor.
+    </p>
+
+    <div class="entry-figs">
+      <img src="img/restauracion-llaut-cubierta.jpg" loading="lazy" alt="Cubierta del llaüt abierta con las cuadernas y el eje a la vista">
+      <img src="img/restauracion-llaut-proa.jpg" loading="lazy" alt="Proa del llaüt con la matrícula CC 291632 repintada">
+    </div>
+
+    <h3>Saneado y acabado</h3>
+    <p>
+      Se consolidan las zonas débiles, se rehacen las juntas y se repone la madera que falta. Luego,
+      pintura: respetando los colores de siempre —verde, blanco y rojo bajo la flotación— y
+      recuperando detalles como la matrícula y el filete de la regala. La mecánica se revisa
+      entera antes de cerrar.
+    </p>
+    <p>
+      El objetivo no es que parezca nuevo, sino que parezca bien cuidado. Un clásico que vuelve al
+      agua con dignidad.
+    </p>
+  </article>
+
+  <article class="entry" id="genesis-72">
+    <div class="entry-meta">
+      <span>Competición</span>
+      <time datetime="2026-07">Julio de 2026</time>
+    </div>
+    <h2>Genesis 72: puesta a punto de un catamarán</h2>
+    <img class="entry-cover" src="img/competicion-genesis-72.jpg" alt="Catamarán de competición Genesis número 72 sobre su soporte">
+
+    <p>
+      En el otro extremo del taller están los barcos de velocidad: catamaranes de casco de composite
+      que apenas rozan el agua. Aquí no manda la estética sino los milímetros. Un buen reglaje es la
+      diferencia entre volar estable y clavar la proa.
+    </p>
+
+    <h3>Mecánica</h3>
+    <p>
+      Motor brushless refrigerado por agua, variador de gran amperaje y un servo de timón con par de
+      sobra. Todo va anclado a una bancada rígida y alineado con el eje: cualquier holgura se
+      convierte en vibración, y la vibración, en avería.
+    </p>
+
+    <div class="entry-figs">
+      <img src="img/competicion-electronica-cat.jpg" loading="lazy" alt="Interior del catamarán con motor Spektrum, variador y servo">
+      <img src="img/competicion-tren-propulsion.jpg" loading="lazy" alt="Tren de propulsión con soportes de aluminio, hélice de latón y timón">
+    </div>
+
+    <h3>Reglaje</h3>
+    <p>
+      Se ajusta el ángulo del eje portahélices, la altura del timón y la posición del centro de
+      gravedad moviendo la batería unos milímetros adelante o atrás. Se prueba, se observa cómo
+      apoya el casco a distintas velocidades y se vuelve a corregir. Cuando el catamarán se asienta
+      sobre los patines y traza limpio, está listo.
+    </p>
+  </article>
+
+  <section class="section center">
+    <div class="wrap">
+      <p class="eyebrow">¿Tienes un proyecto?</p>
+      <h2 style="margin-bottom:1rem">Construyo por encargo y restauro modelos</h2>
+      <a class="btn btn-solid btn-lg" href="index.html#contacto">Cuéntame tu idea</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <img class="footer-logo" src="img/logo-negro.png" alt="Logotipo de Mariano RC">
+    <div class="footer-side">
+      <p class="footer-tagline">Modelos RC de madera · Construcción y proyectos · Mallorca</p>
+      <nav class="footer-nav" aria-label="Pie">
+        <a href="index.html#astillero">El astillero</a>
+        <a href="index.html#trabajos">Trabajos</a>
+        <a href="bitacora.html">Bitácora</a>
+        <!-- ✏️ Cambia este correo por el de Mariano -->
+        <a href="mailto:marianojavierhernandez@gmail.com">Contacto</a>
+      </nav>
+      <p class="footer-legal">© <span id="year">2026</span> Mariano RC.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+<script src="i18n-textos.js"></script>
+<script src="i18n.js"></script>
+</body>
+</html>
